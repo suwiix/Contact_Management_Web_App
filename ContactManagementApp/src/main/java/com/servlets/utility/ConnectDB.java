@@ -5,7 +5,7 @@ import java.sql.*;
 public class ConnectDB {
     private static final String URL = "jdbc:postgresql://localhost:5432/contactManagerDB";
     private static final String USER_NAME = "postgres";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "****"; // postgres password
 
     public static Connection getConnection() throws ClassNotFoundException, SQLException {
         Connection con = null;
